@@ -1,11 +1,5 @@
-def multiply(*numbers):
-    total = 1
-    for number in numbers:
-        total *= number
-    return total
+import myname
 
+name = myname.get_name()
 
-print("start")
-print(multiply(1, 2, 3))
-print("start")
-print(multiply(1, 2, 3))
+print("Hello {}".format(name))
